@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainDiv input{background-color: rgba(255, 217, 0, 0.29);}
+.mainDiv button{background-color: rgba(255, 0, 0, 0.135); transition: 1s ease; border-radius: 16px;}
+.mainDiv button:hover{background-color: red; transition: 1s ease; cursor: pointer;}
+.mainDiv h1{ font-family: 'Kenia', sans-serif; color: gold; text-shadow: 5px 8px 9px rgba(125, 128, 31, 1);}
+
+.carDiv, .personDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
